@@ -4,14 +4,12 @@
 
 <style lang="scss">
 @import './styles/ui.scss';
+
 * {
   margin: 0;
   padding: 0;
 }
-svg {
-  width: 1em;
-  height: 1em;
-}
+
 html,
 body,
 #app,
