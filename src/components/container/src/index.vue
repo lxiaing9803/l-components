@@ -15,12 +15,12 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
+import { ref } from "vue"
 
-import NavHeader from "./navHeader/index.vue";
-import NavSide from "./navSide/index.vue";
+import NavHeader from "./navHeader/index.vue"
+import NavSide from "./navSide/index.vue"
 
-const isCollapse = ref<boolean>(false);
+const isCollapse = ref<boolean>(false)
 </script>
 
 <style lang="scss" scoped>

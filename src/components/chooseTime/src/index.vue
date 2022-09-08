@@ -4,7 +4,6 @@
       <el-time-select
         v-model="startTime"
         :max-time="endTime"
-        class="mr-4"
         :placeholder="startPlaceholder"
         :start="startTimeStart"
         :step="startStep"

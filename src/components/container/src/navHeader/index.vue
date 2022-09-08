@@ -9,12 +9,12 @@
 
 <script lang="ts" setup>
 // @ts-ignore
-const props = defineProps<{ collapse: boolean }>();
-const emits = defineEmits(["update:collapse"]);
+const props = defineProps<{ collapse: boolean }>()
+const emits = defineEmits(["update:collapse"])
 const toggle = () => {
   // 修改父组件数据
-  emits("update:collapse", !props.collapse);
-};
+  emits("update:collapse", !props.collapse)
+}
 </script>
 
 <style lang="scss" scoped>
@@ -24,5 +24,9 @@ const toggle = () => {
   display: flex;
   align-items: center;
   border: 1px solid #eee;
+}
+svg {
+  width: 1em;
+  height: 1em;
 }
 </style>
